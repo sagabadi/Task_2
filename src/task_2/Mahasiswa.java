@@ -80,7 +80,7 @@ public class Mahasiswa {
         String aps = null;
         String s = null;
         int j;
-        aps = "NIM = " + NIM + "\nNama = " + Nama + "\nNilai = ";
+        aps = "NIM = " + NIM + "\nNama = " + Nama + "\nStatus = " + Status + "\nNilai = ";
         for (j = 0; j < i; j++) {
             aps = aps + nilai[j] + ",";
         }
