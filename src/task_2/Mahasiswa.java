@@ -30,7 +30,7 @@ public class Mahasiswa {
     }
 
     public void addNilai(char nilai) {
-        if (i <= 10) {
+        if (i < 10) {
             this.nilai[i] = nilai;
         }
         i++;
